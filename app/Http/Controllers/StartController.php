@@ -45,12 +45,29 @@ class StartController extends Controller
             'datasets'   => [
                 [
                     'label' => 'Продажи',
-                    'backgroundColor' => '#F26202',
+                    'backgroundColor' => ['#F26202', '#F22302', '#F24502', '#F26652'],
                     'data' => [15000,5000,10000,30000],
                 ]
             ]
         ];
 
+    }
 
+    public function getDataChartRandom(){
+        return [
+            'labels' => ['март','апрель','май','июнь'],
+            'datasets'   => [
+                [
+                    'label' => 'Gold',
+                    'backgroundColor' => ['#F26202'],
+                    'data' => [rand(0,50000),rand(0,50000),rand(0,50000),rand(0,50000)],
+                ],
+                [
+                'label' => 'Silver',
+                'backgroundColor' => ['#F26030'],
+                'data' => [rand(0,50000),rand(0,50000),rand(0,50000),rand(0,50000)],
+            ]
+            ]
+        ];
     }
 }
