@@ -30,7 +30,13 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 Vue.component('prop-component', require('./components/PropComponent.vue').default);
 Vue.component('ajax-component', require('./components/AjaxComponent.vue').default);
 Vue.component('line-chart-component', require('./components/LineChartComponent.vue').default);
+Vue.component('pie-chart-component', require('./components/PieChartComponent.vue').default);
+Vue.component('random-chart-component', require('./components/LineChartRandomComponent.vue').default);
+
+
 /**
+ *
+ *
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.

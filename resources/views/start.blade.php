@@ -33,10 +33,27 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card-body">
+                    <pie-chart-component>
+
+                    </pie-chart-component>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card-body">
+                    <random-chart-component>
+
+                    </random-chart-component>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
-<script>
-    import LineChart from "../js/components/LineChart";
-    export default {
-        components: {LineChart}
-    }
-</script>
+
