@@ -32,6 +32,8 @@ Vue.component('ajax-component', require('./components/AjaxComponent.vue').defaul
 Vue.component('line-chart-component', require('./components/LineChartComponent.vue').default);
 Vue.component('pie-chart-component', require('./components/PieChartComponent.vue').default);
 Vue.component('random-chart-component', require('./components/LineChartRandomComponent.vue').default);
+Vue.component('socket-chart-component', require('./components/SocketChartComponent.vue').default);
+
 
 
 /**

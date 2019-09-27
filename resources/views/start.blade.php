@@ -55,5 +55,16 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card-body">
+                    <socket-chart-component>
+
+                    </socket-chart-component>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
 
